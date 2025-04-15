@@ -1,0 +1,31 @@
+select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+select:hover {
+  box-shadow: 0 0 10px 2px white;
+}
+#players-container {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin-bottom: 15px;
+  z-index: 2;
+}
+
+#player1-text {
+  color: var(--player1-color); /* Use Player 1's selected color */
+}
+
+#player2-text {
+  color: var(--player2-color); /* Use Player 2's selected color */
+}

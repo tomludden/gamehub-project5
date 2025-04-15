@@ -1,0 +1,44 @@
+#home-btn {
+  position: absolute;
+  background-color: transparent;
+  color: #ce3939;
+  border: none;
+  top: 20px;
+  left: 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#home-btn:hover {
+  transform: scale(1.4);
+}
+
+#play-btn {
+  margin-top: 40px;
+  font-family: vt323, monospace;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  transition: all 0.3s;
+}
+
+#play-btn:hover {
+  background-color: #ba1bb2;
+  box-shadow: 0 0 10px 2px white;
+}
+
+@media (max-width: 440px) {
+  #home-btn {
+    position: absolute;
+    background-color: transparent;
+    color: #ce3939;
+    border: none;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+  }
+}
