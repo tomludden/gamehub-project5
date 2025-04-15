@@ -5,15 +5,15 @@ export const gameArray = [
     description: '3 in a row - the classic game to play with friends'
   },
   {
-    link: 'Game-2/Yummy Fruits', // Maps to /src/components/games/Game-2/Yummy Fruits/index.html
+    link: 'Game-2', // Maps to /src/components/games/Game-2/Yummy Fruits/index.html
     imageSrc: './src/assets/images/game2.png',
     description:
       'Yummy Fruits - collect as many fruits as possible while avoiding the tempting sweets!'
   },
   {
-    link: 'Game-3/find the match', // Maps to /src/components/games/Game-3/Match It/index.html
+    link: 'Game-3', // Maps to /src/components/games/Game-3/Match It/index.html
     imageSrc: './src/assets/images/game3.png',
     description:
-      'Match It - match as many pairs as you can...are you up to the challenge?'
+      'Match It - match as many pairs as you can...are you up to the challenge to clear 5 rounds?'
   }
 ]
